@@ -8,7 +8,7 @@ body {
 .site-header {
   background-color: #ffffff;
   border-top: 10px solid #d4af37;
-  border-bottom: 10px solid #d4af37;
+  border-bottom: 1px solid #d4af37;
 }
 
 .header-inner {
