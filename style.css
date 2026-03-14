@@ -81,6 +81,7 @@ body {
 .hero-photo img {
   width: auto;
   height: auto;
+  align-items: center;
   border-radius: 80px;
   object-fit: cover;
 }
