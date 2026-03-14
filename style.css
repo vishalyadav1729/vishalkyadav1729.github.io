@@ -80,6 +80,7 @@ body {
 
 .hero-photo img {
   width: 420px;
+  max-height: 420px;
   max-width: 100%;
   height: auto;
   border-radius: 6px;
