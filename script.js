@@ -1,1 +1,1 @@
-console.log("Website loaded successfully.");
+console.log("Website loaded successfully. Working on the script.js file.");
