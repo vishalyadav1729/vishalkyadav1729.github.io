@@ -96,7 +96,9 @@ body {
   font-size: 2rem;
   margin-bottom: 24px;
 }
-
+.contact-line span {
+  margin-right: 40px;
+}
 .content-page p {
   font-size: 1.15rem;
   line-height: 1.8;
