@@ -1,53 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vishal Yadav</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Vishal Yadav is a Ph.D. student in pure mathematics at Memorial University of Newfoundland, working in algebra, Lie theory, and combinatorial game theory.">
+  <title>Vishal Yadav | Mathematics Researcher</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <div class="header-inner">
-      <h1 class="site-title">Vishal Yadav</h1>
-
-      <nav class="main-nav">
-        <a href="about.html">Home</a>
+    <div class="header-inner container">
+      <a class="brand" href="index.html" aria-label="Vishal Yadav, home"><span class="brand-mark">VY<span>.</span></span><span class="brand-name">Vishal Yadav</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
         <a href="education.html">Publications</a>
         <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+        <a class="nav-contact" href="contact.html">Get in touch <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
 
-  <main class="home-main">
-    <section class="hero">
-      <div class="hero-text">
-        <h2></h2>
-
-   <p>
-    I am a Ph.D. student in Pure Mathematics at Memorial University of Newfoundland.
-    My research interests lie broadly in algebra, with particular emphasis on Lie theory,
-    gradings on Lie algebras, algebraic groups, and combinatorial game theory. My recent
-    work includes research on misère games, cyclic group gradings in prime characteristic,
-    and fine gradings on exceptional Lie algebras such as <em>E</em><sub>6</sub>.
-  </p>
-
-  <p>
-    Alongside my research, I have several years of teaching experience across undergraduate
-    and graduate mathematics. I have taught courses in real analysis, mathematical finance,
-    and advanced group theory, and I have also worked extensively as a teaching assistant,
-    giving tutorials, marking assignments, and supporting students in the Math Help Centre.
-    Beyond mathematics, I have contributed to curriculum development for accessibility-focused
-    education projects and completed a data science project on predicting hospital readmissions
-    using machine learning.
-  </p>
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Mathematics researcher · Memorial University</p>
+        <h1 id="hero-title">Finding structure in <em>abstract ideas.</em></h1>
+        <p class="hero-lead">I’m Vishal Yadav, a Ph.D. student in pure mathematics at Memorial University of Newfoundland. I study algebra, Lie theory, and the surprising connections that emerge from mathematical structure.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="education.html">Explore my research <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="about.html">More about me <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-meta"><span class="meta-dot"></span> St. John’s, Newfoundland and Labrador</div>
       </div>
+      <figure class="hero-image">
+        <img src="vish.jpg" alt="Portrait of Vishal Yadav" width="1200" height="1800" fetchpriority="high">
+        <figcaption>Pure mathematics · Research &amp; teaching</figcaption>
+      </figure>
+    </section>
 
-      <div class="hero-photo">
-        <img src="vish.jpg" alt="Profile photo of Vishal Yadav">
+    <section class="research-band" aria-labelledby="research-title">
+      <div class="container band-inner">
+        <div class="band-intro"><p class="section-kicker">Research interests</p><h2 id="research-title">Questions that<br>keep me curious.</h2></div>
+        <div class="research-list">
+          <div><span class="research-number">01</span><h3>Lie theory &amp; gradings</h3><p>Gradings on Lie algebras, algebraic groups, and exceptional structures such as <i>E</i><sub>6</sub>.</p></div>
+          <div><span class="research-number">02</span><h3>Combinatorial game theory</h3><p>Misère games, invertibility, and the ways games can be reduced or expanded.</p></div>
+          <div><span class="research-number">03</span><h3>Algebra in characteristic <i>p</i></h3><p>Cyclic group gradings and automorphisms in prime characteristic.</p></div>
+        </div>
       </div>
     </section>
+
+    <section class="section container" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="section-kicker">Selected work</p><h2 id="work-title">Ideas in print <em>&amp; in progress.</em></h2></div><a class="text-link" href="education.html">All publications <span aria-hidden="true">→</span></a></div>
+      <div class="featured-publication">
+        <div class="publication-year">2025 <span>Published research</span></div>
+        <div><h3><a href="https://www.combinatorics.org/ojs/index.php/eljc/article/view/v32i4p10" target="_blank" rel="noopener noreferrer">Invertibility in the Misère Multiverse <span aria-hidden="true">↗</span></a></h3><p>With A. Davies · <i>Electronic Journal of Combinatorics</i>, 32(4), P4.10</p></div>
+      </div>
+      <div class="featured-publication">
+        <div class="publication-year">In progress <span>Lie theory</span></div>
+        <div><h3>Fine gradings on <i>E</i><sub>6</sub> in prime characteristic</h3><p>With S. Argenti and M. Kochetov</p></div>
+      </div>
+    </section>
+
+    <section class="section section-tint" aria-labelledby="beyond-title">
+      <div class="container beyond-grid">
+        <div><p class="section-kicker">Beyond the research</p><h2 id="beyond-title">Mathematics is better <em>when it’s shared.</em></h2><p class="section-intro">Teaching, collaboration, and applied projects are an important part of my work.</p><a class="text-link" href="about.html">Read my story <span aria-hidden="true">→</span></a></div>
+        <div class="beyond-list">
+          <article><span class="list-icon" aria-hidden="true">01</span><div><h3>Teaching</h3><p>Experience teaching real analysis, mathematical finance, and advanced group theory, alongside tutorials and support in the Math Help Centre.</p></div></article>
+          <article><span class="list-icon" aria-hidden="true">02</span><div><h3>Applied projects</h3><p>Work in data science and accessible K–2 curriculum development connects careful thinking with practical questions.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-cta container" aria-labelledby="contact-title"><p class="section-kicker">Let’s connect</p><h2 id="contact-title">Interested in mathematics, teaching, or a conversation?</h2><a class="button button-light" href="mailto:vkyadav@mun.ca">Email me <span aria-hidden="true">↗</span></a></section>
   </main>
+  <footer class="site-footer"><div class="container footer-inner"><span>© 2026 Vishal Yadav</span><span>Mathematics · Memorial University of Newfoundland</span><div><a href="https://github.com/vishalyadav1729" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/vishal-yadav-08a83773" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div></footer>
 </body>
 </html>
