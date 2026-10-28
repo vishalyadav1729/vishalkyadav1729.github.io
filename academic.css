@@ -176,13 +176,13 @@ a { text-underline-offset: 4px; }
 .main-nav .nav-contact[aria-current="page"]::after { display: none; }
 
 /* Homepage introduction */
-.home-layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; align-items: start; gap: clamp(38px, 5vw, 70px); }
+.home-layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; align-items: start; gap: clamp(32px, 3vw, 44px); }
 .home-content { grid-column: 1; grid-row: 1; min-width: 0; }
 .hero-wrap { position: relative; border-bottom: 1px solid var(--line); }
 .hero { position: relative; padding-block: 24px 82px; }
 .eyebrow { margin: 0 0 22px; color: var(--accent); font-size: 13px; font-weight: 800; letter-spacing: .13em; line-height: 1.5; text-transform: uppercase; }
 .hero-copy h1 { margin: 0 0 24px; font-size: clamp(48px, 5vw, 64px); font-weight: 400; line-height: 1.08; letter-spacing: -.055em; }
-.hero-bio p { max-width: 670px; margin: 0 0 19px; color: #354a4e; font-size: 17px; line-height: 1.8; }
+.hero-bio p { margin: 0 0 19px; color: #354a4e; font-size: 17px; line-height: 1.8; }
 .hero-more { margin-top: 3px; }
 .hero-interests { margin-top: 46px; padding-top: 34px; border-top: 1px solid #cbdcd4; }
 .hero-interests .eyebrow { margin-bottom: 9px; }
