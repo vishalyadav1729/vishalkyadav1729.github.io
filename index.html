@@ -6,7 +6,7 @@
   <meta name="description" content="Vishal Yadav is a mathematics researcher, educator, and data scientist working across Lie algebras, game theory, healthcare, and insurance.">
   <title>Vishal Yadav | Mathematics, Data Science &amp; Education</title>
   <meta name="theme-color" content="#f8f7f3">
-  <link rel="stylesheet" href="academic.css?v=20261023-contact-grid">
+  <link rel="stylesheet" href="academic.css?v=20261028-profile-home">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -24,27 +24,51 @@
   </header>
 
   <main id="main">
-    <section class="hero-wrap">
+    <section class="hero-wrap" aria-labelledby="about-title">
       <div class="hero container">
+        <aside class="hero-profile" aria-label="Vishal Yadav's profile and contact details">
+          <figure class="hero-portrait"><img src="vish.jpg" alt="Portrait of Vishal Yadav" width="240" height="240" fetchpriority="high"></figure>
+          <div class="hero-profile-details">
+            <h2>Vishal Yadav</h2>
+            <p class="profile-degree">Ph.D. in Mathematics</p>
+            <dl class="profile-facts">
+              <div><dt>University</dt><dd>Memorial University of Newfoundland</dd></div>
+              <div><dt>Location</dt><dd>St. John’s, Canada</dd></div>
+              <div><dt>Email</dt><dd><a href="mailto:vkyadav@mun.ca">vkyadav@mun.ca</a></dd></div>
+            </dl>
+            <nav class="profile-social" aria-label="Online profiles">
+              <a href="https://github.com/vishalyadav1729" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/vishal-yadav1729/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://orcid.org/0009-0005-4583-9429" target="_blank" rel="noopener noreferrer">ORCID</a>
+              <a href="https://www.researchgate.net/profile/Vishal-Yadav-47" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+            </nav>
+          </div>
+        </aside>
         <div class="hero-copy">
-          <h1>Hi, I’m <em>Vishal Yadav.</em></h1>
-          <p class="hero-lead">I study mathematical structure and turn complex data into useful, carefully tested tools.</p>
-          <p class="hero-detail">My work spans Lie algebra gradings, combinatorial game theory, healthcare, insurance, and accessible mathematics education.</p>
-          <div class="hero-actions"><a class="button button-primary" href="#selected-work">Explore my work</a><a class="button button-primary" href="contact.html">Get in touch</a></div>
-          <nav class="hero-social" aria-label="Online profiles"><a href="https://github.com/vishalyadav1729" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/vishal-yadav1729/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://orcid.org/0009-0005-4583-9429" target="_blank" rel="noopener noreferrer">ORCID</a><a href="https://www.researchgate.net/profile/Vishal-Yadav-47" target="_blank" rel="noopener noreferrer">ResearchGate</a></nav>
+          <p class="eyebrow">01 / About</p>
+          <h1 id="about-title">About me.</h1>
+          <div class="hero-bio">
+            <p>I earned a Ph.D. in pure mathematics from Memorial University of Newfoundland in 2026. My doctoral work extends methods for classifying cyclic gradings of classical Lie algebras across characteristics. I have coauthored a peer-reviewed paper on combinatorial game theory and a preprint on Lie algebra gradings, and presented my research at an international workshop.</p>
+            <p>Alongside research, I build data science projects and teach mathematics. I enjoy moving between abstract ideas and practical problems, from evaluating predictive models to creating more accessible learning experiences.</p>
+          </div>
+          <a class="text-link hero-more" href="about.html">Read about my experience <span aria-hidden="true">↗</span></a>
+          <section class="hero-interests" aria-labelledby="interests-title">
+            <p class="eyebrow">02 / Interests</p>
+            <h2 id="interests-title">Research interests</h2>
+            <ul>
+              <li><strong>Lie algebras</strong> — cyclic gradings and algebraic structure.</li>
+              <li><strong>Combinatorial game theory</strong> — misère games and their mathematical properties.</li>
+              <li><strong>Applied data science</strong> — predictive models for healthcare and insurance.</li>
+              <li><strong>Mathematics education</strong> — accessible ways to teach and learn mathematics.</li>
+            </ul>
+          </section>
         </div>
-        <figure class="hero-portrait"><img src="vish.jpg" alt="Portrait of Vishal Yadav" width="400" height="500" fetchpriority="high"><figcaption>Mathematics PhD, Memorial University of Newfoundland</figcaption></figure>
       </div>
     </section>
 
     <div class="home-container container">
-      <section class="home-section intro-section" aria-labelledby="about-title">
-        <div class="section-aside"><p class="eyebrow">01 / About</p><h2 id="about-title">Mathematics in research and practice.</h2></div>
-        <div class="section-main prose"><p>I earned a Ph.D. in pure mathematics from Memorial University of Newfoundland in 2026. My doctoral work extends methods for classifying cyclic gradings of classical Lie algebras across characteristics. I have coauthored a peer-reviewed paper on combinatorial game theory and a preprint on Lie algebra gradings, and presented my research at an international workshop.</p><p>Alongside research, I build data science projects and teach mathematics. I enjoy moving between abstract ideas and practical problems, from evaluating predictive models to creating more accessible learning experiences.</p><a class="button button-primary" href="about.html">Read about my experience</a></div>
-      </section>
-
       <section class="home-section work-section" id="selected-work" aria-labelledby="work-title">
-        <div class="section-aside"><p class="eyebrow">02 / Selected work</p><h2 id="work-title">From research to real-world questions.</h2></div>
+        <div class="section-aside"><p class="eyebrow">03 / Selected work</p><h2 id="work-title">From research to real-world questions.</h2></div>
         <div class="section-main work-grid">
           <article class="work-card"><p class="card-type">Data science / Insurance</p><h3>RiskRate</h3><p>An insurance pricing pipeline built with Python and SQL using more than 678,000 motor policies. I corrected a data issue that overstated estimated pure premiums by 36.3% and deployed an interactive pricing app.</p><div class="card-links"><a class="button button-secondary" href="https://github.com/vishalyadav1729/auto-insurance-pricing" target="_blank" rel="noopener noreferrer">View project</a><a class="button button-secondary" href="https://riskrate.streamlit.app/" target="_blank" rel="noopener noreferrer">Try the app</a></div></article>
           <article class="work-card"><p class="card-type">Data science / Healthcare</p><h3>Hospital readmission prediction</h3><p>With an Erdős Institute team, I helped model 30-day readmissions from synthetic health records. Our random forest reached about 0.90 AUC and 0.94 recall in patient-level cross-validation.</p><div class="card-links"><a class="button button-secondary" href="https://github.com/Erdos-Projects/fall-2025-patient-risk-identification" target="_blank" rel="noopener noreferrer">View project</a></div></article>
@@ -53,17 +77,17 @@
       </section>
 
       <section class="home-section" aria-labelledby="publications-title">
-        <div class="section-aside"><p class="eyebrow">03 / Research</p><h2 id="publications-title">Publications &amp; preprints</h2><a class="aside-link" href="education.html">View all research <span aria-hidden="true">↗</span></a></div>
+        <div class="section-aside"><p class="eyebrow">04 / Research</p><h2 id="publications-title">Publications &amp; preprints</h2><a class="aside-link" href="education.html">View all research <span aria-hidden="true">↗</span></a></div>
         <div class="section-main publication-list"><article class="publication-row"><span class="publication-date">2026 · Preprint</span><div><h3><a href="https://arxiv.org/abs/2608.05023" target="_blank" rel="noopener noreferrer">Gradings by cyclic groups on classical simple Lie algebras in prime characteristics</a></h3><p>Mikhail Kochetov and Vishal Yadav · arXiv:2608.05023</p></div></article><article class="publication-row"><span class="publication-date">2025 · Journal</span><div><h3><a href="https://www.combinatorics.org/ojs/index.php/eljc/article/view/v32i4p10" target="_blank" rel="noopener noreferrer">Invertibility in the Misère Multiverse</a></h3><p>Alfie Davies and Vishal Yadav · <i>Electronic Journal of Combinatorics</i>, 32(4), P4.10</p></div></article></div>
       </section>
 
       <section class="home-section credentials-section" aria-labelledby="credentials-title">
-        <div class="section-aside"><p class="eyebrow">04 / Learning</p><h2 id="credentials-title">Credentials</h2></div>
+        <div class="section-aside"><p class="eyebrow">05 / Learning</p><h2 id="credentials-title">Credentials</h2></div>
         <div class="section-main credential-list"><div><span class="credential-year">2026</span><p><strong>IBM Data Science Professional Certificate</strong><br>IBM · August 2026. Twelve courses covering Python, SQL, data analysis, visualization, and machine learning.</p></div><div><span class="credential-year">2025</span><p><strong>Erdős Institute Data Science Boot Camp</strong><br>Completed with Distinction · November 2025.</p></div></div>
       </section>
 
       <section class="home-section explore-section" aria-labelledby="explore-title">
-        <div class="section-aside"><p class="eyebrow">05 / Explore more</p><h2 id="explore-title">More about my work</h2></div>
+        <div class="section-aside"><p class="eyebrow">06 / Explore more</p><h2 id="explore-title">More about my work</h2></div>
         <div class="section-main more-links">
           <a href="about.html"><strong>Teaching &amp; experience</strong><span>Teaching, outreach, and curriculum work</span><span class="more-link-action">Open experience <span aria-hidden="true">↗</span></span></a>
           <a href="projects.html"><strong>Projects</strong><span>Data science and accessible education</span><span class="more-link-action">Open projects <span aria-hidden="true">↗</span></span></a>
@@ -71,7 +95,7 @@
       </section>
 
       <section class="home-section contacts-section" aria-labelledby="contacts-title">
-        <div class="section-aside"><p class="eyebrow">06 / Contacts</p><h2 id="contacts-title">Contacts</h2></div>
+        <div class="section-aside"><p class="eyebrow">07 / Contacts</p><h2 id="contacts-title">Contacts</h2></div>
         <ul class="section-main home-contact-list">
           <li><a href="mailto:vkyadav@mun.ca"><span>Email</span><strong>vkyadav@mun.ca</strong></a></li>
           <li><a href="https://github.com/vishalyadav1729" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>Projects and code</strong></a></li>
