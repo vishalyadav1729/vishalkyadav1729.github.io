@@ -252,10 +252,9 @@ a { text-underline-offset: 4px; }
 .more-links span { color: #d9ebe5; line-height: 1.5; }
 .more-links .more-link-action { display: flex; justify-content: space-between; gap: 12px; margin-top: auto; padding-top: 18px; color: #fff; font-size: 14px; font-weight: 750; text-decoration: underline; text-underline-offset: 4px; }
 .closing-band { background: var(--ink); color: #fff; }
-.closing-inner { display: flex; justify-content: space-between; align-items: center; gap: 30px; padding-block: 16px; }
-.closing-band h2 { margin: 0 0 5px; font-size: clamp(29px, 3vw, 40px); font-weight: 400; letter-spacing: -.035em; }
-.closing-band p:last-child { margin: 0; color: #cedbd7; font-size: 15px; }
-.button-light { flex: none; border-color: #fff; color: var(--ink); background: #fff; }
+.closing-inner { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding-block: 8px; }
+.closing-band h2 { margin: 0; font-size: clamp(25px, 2.5vw, 32px); font-weight: 400; line-height: 1.2; letter-spacing: -.035em; }
+.button-light { flex: none; min-height: 40px; padding: 7px 14px; gap: 12px; border-color: #fff; color: var(--ink); background: #fff; font-size: 13px; }
 .button-light:hover { background: #dcebe4; color: var(--ink); }
 
 /* The same visual language carries through the interior pages. */
@@ -296,7 +295,7 @@ a { text-underline-offset: 4px; }
   .section-aside h2 { max-width: 560px; }
   .work-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .more-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .closing-inner { align-items: flex-start; flex-direction: column; gap: 14px; }
+  .closing-inner { align-items: flex-start; flex-direction: column; gap: 8px; }
 }
 @media (max-width: 520px) {
   .brand-name { font-size: 19px; }
