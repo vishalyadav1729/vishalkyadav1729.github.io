@@ -207,8 +207,8 @@ a { text-underline-offset: 4px; }
 .profile-facts svg { display: block; flex: none; width: 19px; height: 19px; color: var(--accent); fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .profile-facts a, .profile-social a { color: var(--accent); text-underline-offset: 3px; }
 .profile-social { display: grid; gap: 7px; padding-top: 15px; }
-.profile-social a { display: inline-flex; align-items: center; gap: 10px; width: fit-content; min-height: 24px; font-size: 14px; font-weight: 700; text-decoration: none; }
-.profile-social img { display: block; flex: none; width: 19px; height: 19px; }
+.profile-social a { display: inline-flex; align-items: center; gap: 7px; width: fit-content; min-height: 26px; font-size: 14px; font-weight: 700; text-decoration: none; }
+.profile-social img { display: block; flex: none; width: 22px; height: 22px; }
 .profile-social a span { text-decoration: underline; text-underline-offset: 3px; }
 
 /* Homepage sections */
