@@ -197,7 +197,7 @@ a { text-underline-offset: 4px; }
 .button-primary:hover { background: #104b44; color: #fff; }
 .button-secondary { color: var(--accent); background: transparent; }
 .button-secondary:hover { background: #dcebe4; }
-.hero-profile { position: sticky; top: 100px; z-index: 1; grid-column: 2; grid-row: 1; width: 100%; min-width: 0; max-height: calc(100vh - 116px); max-height: calc(100dvh - 116px); margin-top: 16px; padding: 22px; overflow-y: auto; scrollbar-width: thin; background: var(--paper); transform: translateX(20px); }
+.hero-profile { position: sticky; top: 100px; z-index: 1; grid-column: 2; grid-row: 1; width: 100%; min-width: 0; max-height: calc(100vh - 116px); max-height: calc(100dvh - 116px); margin-top: 16px; padding: 22px; overflow-y: auto; scrollbar-width: thin; background: var(--paper); transform: translateX(max(28px, calc(50vw - 614px))); }
 .hero-portrait { width: 220px; max-width: 100%; margin: 0 0 24px; }
 .hero-portrait img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; object-position: center 29%; border: 6px solid #fff; border-radius: 50%; box-shadow: 0 0 0 1px #cbdcd4; }
 .hero-profile-details h2 { margin: 0 0 2px; font-size: 25px; font-weight: 400; letter-spacing: -.03em; line-height: 1.25; }
