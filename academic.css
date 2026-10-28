@@ -116,11 +116,6 @@ h1, h2, h3 { font-family: var(--serif); }
 .contact-profile strong { display: block; font-family: var(--serif); font-size: 24px; font-weight: 400; }
 .contact-profile small { display: block; color: var(--muted); font-size: 14px; }
 
-.site-footer { border-top: 1px solid var(--line); padding: 25px 0; color: var(--muted); font-size: 13px; }
-.footer-inner { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 14px 25px; }
-.footer-inner div { display: flex; gap: 18px; }
-.footer-inner a { color: var(--muted); text-decoration: none; }
-.footer-inner a:hover { color: var(--accent); }
 
 @media (max-width: 700px) {
   .container { width: min(100% - 32px, 1080px); }
@@ -291,7 +286,6 @@ a { text-underline-offset: 4px; }
 .project-actions { display: flex; flex-wrap: wrap; gap: 10px; }
 .contact-primary { border-radius: 4px; }
 .contact-profile { background: #fff; border-radius: 4px; }
-.site-footer { padding-block: 28px; background: var(--paper); }
 
 @media (max-width: 900px) {
   .hero-portrait { width: 200px; }
@@ -330,7 +324,6 @@ a { text-underline-offset: 4px; }
   .publication-row, .publication-entry { grid-template-columns: 1fr; gap: 7px; }
   .credential-list > div { grid-template-columns: 1fr; gap: 2px; }
   .home-contact-list li:first-child a { align-items: flex-start; flex-direction: column; gap: 8px; }
-  .footer-inner { flex-direction: column; }
 }
 @media (max-width: 420px) { .home-contact-list { grid-template-columns: 1fr; } }
 @media (max-width: 420px) { .profile-facts li { font-size: 12px; white-space: normal; } .home-layout .home-contact-list { grid-template-columns: 1fr; } }
